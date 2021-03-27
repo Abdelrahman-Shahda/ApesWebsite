@@ -1,0 +1,2135 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700|Bungee:400");
+
+@font-face {
+  font-family: "Helvetica-Oblique";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/Helvetica-Oblique") format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.animaapp.com/Helvetica-Regular") format("truetype");
+}
+
+@font-face {
+  font-family: "HelveticaNeue-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://fonts.animaapp.com/HelveticaNeue-Light") format("opentype");
+}
+
+@font-face {
+  font-family: "Helvetica-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("https://fonts.animaapp.com/Helvetica-Light") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}
+.border-3px-quick-silver-2 {
+  border: 3px solid var(--quick-silver-2);
+}
+.border-5px-golden-fizz {
+  border: 5px solid var(--golden-fizz);
+}
+.border-class-1 {
+  border: 3px solid rgba(0, 0, 0, 1);
+}
+.bungee-normal-black-25px {
+  color: black;
+  font-family: "Bungee", Helvetica;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+.bungee-normal-black-35px {
+  color: black;
+  font-family: "Bungee", Helvetica;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+}
+.helvetica-light-black-10px {
+  color: black;
+  font-family: "Helvetica-Light", Helvetica;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+}
+.helvetica-light-black-15px {
+  color: black;
+  font-family: "Helvetica-Light", Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+}
+.helvetica-light-black-15px-2 {
+  color: black;
+  font-family: "Helvetica", Helvetica;
+  font-size: 15px;
+}
+.helvetica-light-white-15px {
+  color: white;
+  font-family: "Helvetica-Light", Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+}
+.helvetica-regular-normal-white-25px {
+  color: white;
+  font-family: "Helvetica-Regular", Helvetica;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+}
+.landing {
+  align-items: flex-end;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 6466px;
+  overflow: hidden;
+  width: 1920px;
+}
+.landing .abdelrahman-emam {
+  left: 52px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 236px;
+  white-space: nowrap;
+}
+.landing .abdelrahman-shahda {
+  left: 47px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 234px;
+  white-space: nowrap;
+}
+.landing .about-us {
+  letter-spacing: 0px;
+  line-height: 16px;
+  margin-left: 38px;
+  margin-top: 9px;
+  min-height: 24px;
+  min-width: 73px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.landing .about-us:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+  color: black;
+}
+.landing .address {
+  left: 55px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 306px;
+  white-space: nowrap;
+}
+.landing .address-1 {
+  letter-spacing: 0px;
+  line-height: 15px;
+  margin-right: 7px;
+  margin-top: 20px;
+  min-height: 17px;
+  min-width: 198px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .address-2 {
+  letter-spacing: 0px;
+  line-height: 15px;
+  margin-right: 7px;
+  margin-top: 22px;
+  min-height: 35px;
+  min-width: 228px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .android {
+  height: 70px;
+  margin-left: 100px;
+  width: 70px;
+}
+.landing .apes {
+  letter-spacing: 0px;
+  line-height: 25px;
+  margin-left: 12px;
+  margin-top: 6px;
+  min-height: 27px;
+  min-width: 70px;
+  white-space: nowrap;
+}
+.landing .apes-1 {
+  color: white;
+  font-family: "Open Sans", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 25px;
+  min-height: 36px;
+  min-width: 62px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .apes-clients-are {
+  align-self: flex-end;
+  color: white;
+  font-family: "Bungee", Helvetica;
+  font-size: 35px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  margin-bottom: -2px;
+  min-height: 37px;
+  min-width: 350px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .apes-logo {
+  height: 55px;
+  width: 55px;
+}
+.landing .apple-853-675472 {
+  height: 18px;
+  width: 18px;
+}
+.landing .apple-store {
+  color: var(--quick-silver);
+  font-family: "Open Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  left: 61px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  white-space: nowrap;
+}
+.landing .asfar-studio {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+}
+.landing .basic-package {
+  font-family: "Open Sans", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  left: 71px;
+  letter-spacing: 0px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  top: 22px;
+  white-space: nowrap;
+}
+.landing .book-a-meeting {
+  color: var(--quill-gray);
+  font-family: "Helvetica-Light", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  line-height: 20px;
+  margin-top: 22px;
+  min-height: 22px;
+  min-width: 142px;
+  pointer-events: auto;
+  text-align: center;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.landing .book-a-meeting:hover {
+  text-decoration: underline;
+}
+.landing .book-meeting {
+  font-family: "Bungee", Helvetica;
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  min-height: 17px;
+  min-width: 122px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .book-meeting-1 {
+  font-family: "Bungee", Helvetica;
+  font-size: 20px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  min-height: 22px;
+  min-width: 162px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .business-package {
+  font-family: "Open Sans", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 25px;
+  margin-left: 3px;
+  min-height: 36px;
+  min-width: 220px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .businesses {
+  letter-spacing: 0px;
+  line-height: 25px;
+  margin-bottom: -2px;
+  min-height: 27px;
+  min-width: 130px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .consumers {
+  letter-spacing: 0px;
+  line-height: 25px;
+  margin-bottom: -2px;
+  margin-left: 221px;
+  min-height: 27px;
+  min-width: 130px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .contact-us {
+  color: var(--quill-gray);
+  font-family: "Helvetica-Light", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  line-height: 20px;
+  margin-top: 17px;
+  min-height: 22px;
+  min-width: 102px;
+  pointer-events: auto;
+  text-align: center;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.landing .contact-us:hover {
+  text-decoration: underline;
+}
+.landing .custom-mailboxes {
+  letter-spacing: 0px;
+  line-height: 15px;
+  margin-right: 7px;
+  margin-top: 20px;
+  min-height: 17px;
+  min-width: 126px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .elite-package {
+  color: white;
+  font-family: "Open Sans", Helvetica;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 25px;
+  margin-left: 3px;
+  min-height: 36px;
+  min-width: 166px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .ellipse-1 {
+  background-color: var(--midnight-pearl);
+  border-radius: 62.5px;
+  height: 125px;
+  left: 5px;
+  position: absolute;
+  top: 9px;
+  width: 125px;
+}
+.landing .firebase-512 {
+  height: 60px;
+  margin-left: 100px;
+  width: 60px;
+}
+.landing .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: -240px;
+  min-height: 2398px;
+  width: 2311px;
+}
+.landing .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 1848px;
+  min-height: 1138px;
+  position: absolute;
+  top: 690px;
+  width: 176px;
+}
+.landing .flex-col-2 {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 1118px;
+  width: 184px;
+}
+.landing .flex-col-3 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 21.29px;
+  margin-left: 303px;
+  min-height: 1138px;
+  width: 176px;
+}
+.landing .flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 1783px;
+  margin-right: -47px;
+  margin-top: 245px;
+  min-width: 2024px;
+}
+.landing .flex-row-1 {
+  align-items: flex-end;
+  display: flex;
+  min-width: 1195px;
+}
+.landing .flex-row-2 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  height: 321px;
+  margin-top: 6px;
+  min-width: 772px;
+}
+.landing .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 270px;
+  margin-right: -47px;
+  margin-top: 201px;
+  min-width: 1437px;
+}
+.landing .future {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+}
+.landing .google-play {
+  font-family: "Open Sans", Helvetica;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 12px;
+  min-height: 19px;
+  min-width: 72px;
+  pointer-events: auto;
+  text-align: center;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.landing .google-play-2-555322 {
+  height: 18px;
+  left: 37px;
+  position: absolute;
+  top: 6px;
+  width: 18px;
+}
+.landing .google-play:hover {
+  text-decoration: underline;
+}
+.landing .group- {
+  height: 179px;
+  margin-left: 126px;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 100px;
+}
+.landing .group--1 {
+  height: 289px;
+  left: 0px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 255px;
+}
+.landing .group--1:hover {
+  transform: scale(1.1);
+}
+.landing .group-1 {
+  align-items: center;
+  display: flex;
+  min-width: 137px;
+}
+.landing .group-10 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 79px;
+  min-width: 784px;
+}
+.landing .group-11 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 625px;
+  min-height: 973px;
+  position: absolute;
+  top: 258px;
+  width: 784px;
+}
+.landing .group-12 {
+  align-items: flex-start;
+  display: flex;
+  height: 55px;
+  left: 101px;
+  min-width: 1822px;
+  position: absolute;
+  top: 19px;
+}
+.landing .group-13 {
+  align-items: flex-end;
+  display: flex;
+  height: 84px;
+  margin-left: 2px;
+  min-width: 378px;
+}
+.landing .group-15 {
+  align-items: flex-start;
+  background-color: var(--maroon-flush);
+  border-radius: 62.5px;
+  display: flex;
+  height: 125px;
+  margin-right: 3px;
+  min-width: 125px;
+  padding: 20px 32.5px;
+}
+.landing .group-15-1 {
+  align-items: flex-start;
+  background-color: var(--maroon-flush);
+  border-radius: 62.5px;
+  display: flex;
+  height: 125px;
+  min-width: 125px;
+  padding: 20px 32.5px;
+}
+.landing .group-16 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.69px;
+  min-height: 252px;
+  width: 164px;
+}
+.landing .group-16-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 440px;
+  min-height: 264px;
+  width: 126px;
+}
+.landing .group-2 {
+  height: 170px;
+  left: 0px;
+  position: absolute;
+  top: 364px;
+  width: 176px;
+}
+.landing .group-2-1 {
+  height: 170px;
+  width: 176px;
+}
+.landing .group-2-10 {
+  align-self: flex-end;
+  height: 170px;
+  margin-left: 401px;
+  width: 176px;
+}
+.landing .group-2-2 {
+  height: 170px;
+  margin-top: 798px;
+  width: 176px;
+}
+.landing .group-2-3 {
+  align-items: center;
+  display: flex;
+  min-width: 1605px;
+}
+.landing .group-2-4 {
+  height: 170px;
+  left: 8px;
+  position: absolute;
+  top: 1312px;
+  width: 176px;
+}
+.landing .group-2-5 {
+  border-radius: 85px;
+  height: 170px;
+  left: 91px;
+  position: absolute;
+  top: 34px;
+  width: 176px;
+}
+.landing .group-2-6 {
+  height: 170px;
+  margin-right: 8px;
+  width: 176px;
+}
+.landing .group-2-7 {
+  height: 170px;
+  margin-left: 8px;
+  margin-top: 778px;
+  width: 176px;
+}
+.landing .group-2-8 {
+  height: 170px;
+  left: 1851px;
+  position: absolute;
+  top: 243px;
+  width: 176px;
+}
+.landing .group-2-9 {
+  border-radius: 85px;
+  height: 170px;
+  left: 0px;
+  position: absolute;
+  top: 518px;
+  width: 176px;
+}
+.landing .group-20 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 135px;
+}
+.landing .group-23 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 596px;
+  min-height: 438px;
+  position: absolute;
+  top: 1416px;
+  width: 729px;
+}
+.landing .group-25 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 47px;
+  min-width: 860px;
+}
+.landing .group-26 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 191px;
+  width: 860px;
+}
+.landing .group-29 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  min-height: 262px;
+  width: 142px;
+}
+.landing .group-3 {
+  height: 50px;
+  margin-left: 39px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 178px;
+}
+.landing .group-30 {
+  align-items: center;
+  display: flex;
+  height: 264px;
+  margin-top: 90px;
+  min-width: 729px;
+}
+.landing .group-31 {
+  align-items: flex-end;
+  border-radius: 5px;
+  display: flex;
+  height: 29px;
+  justify-content: flex-end;
+  left: 0px;
+  min-width: 170px;
+  padding: 4.5px 41px;
+  position: absolute;
+  top: 0px;
+}
+.landing .group-35 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-left: 7px;
+  min-width: 376px;
+}
+.landing .group-36 {
+  align-items: flex-end;
+  display: flex;
+  height: 25px;
+  margin-bottom: 2px;
+  margin-left: 343px;
+  min-width: 798px;
+}
+.landing .group-37 {
+  align-items: center;
+  display: flex;
+  height: 35px;
+  min-width: 1489px;
+}
+.landing .group-38 {
+  align-items: flex-start;
+  background-color: black;
+  display: flex;
+  height: 210px;
+  left: 0px;
+  min-width: 2311px;
+  padding: 87px 398px;
+  position: absolute;
+  top: 0px;
+}
+.landing .group-39 {
+  align-items: flex-start;
+  display: flex;
+  height: 42px;
+  left: 23px;
+  min-width: 362px;
+  position: absolute;
+  top: 8px;
+}
+.landing .group-3:hover {
+  transform: scale(1.1);
+}
+.landing .group-4 {
+  height: 70px;
+  margin-top: 75px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 250px;
+}
+.landing .group-40 {
+  align-items: flex-start;
+  display: flex;
+  height: 42px;
+  left: 477px;
+  min-width: 331px;
+  position: absolute;
+  top: 8px;
+}
+.landing .group-40-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 42px;
+  left: 472px;
+  min-width: 306px;
+  position: absolute;
+  top: 0px;
+}
+.landing .group-41 {
+  align-items: flex-start;
+  display: flex;
+  height: 42px;
+  left: 102px;
+  min-width: 283px;
+  position: absolute;
+  top: 22px;
+}
+.landing .group-41-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 42px;
+  left: 117px;
+  min-width: 268px;
+  position: absolute;
+  top: 0px;
+}
+.landing .group-42 {
+  align-items: flex-start;
+  display: flex;
+  height: 174px;
+  left: 245px;
+  min-width: 804px;
+  position: absolute;
+  top: 69px;
+}
+.landing .group-42-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 152px;
+  left: 0px;
+  min-width: 783px;
+  position: absolute;
+  top: 44px;
+}
+.landing .group-43 {
+  align-items: flex-start;
+  display: flex;
+  height: 175px;
+  left: 0px;
+  min-width: 813px;
+  position: absolute;
+  top: 56px;
+}
+.landing .group-43-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 167px;
+  left: 26px;
+  min-width: 783px;
+  position: absolute;
+  top: 2px;
+}
+.landing .group-44 {
+  align-items: flex-start;
+  display: flex;
+  height: 160px;
+  left: 245px;
+  min-width: 800px;
+  position: absolute;
+  top: 83px;
+}
+.landing .group-46 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  margin-left: 4px;
+  margin-top: 112px;
+  min-width: 1045px;
+}
+.landing .group-47 {
+  height: 287px;
+  left: 800px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 255px;
+}
+.landing .group-47:hover {
+  transform: scale(1.1);
+}
+.landing .group-48 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 21px;
+  min-width: 1055px;
+}
+.landing .group-4:hover {
+  transform: scale(1.1);
+}
+.landing .group-5 {
+  align-items: flex-start;
+  border-radius: 5px;
+  display: flex;
+  height: 41px;
+  margin-left: 2px;
+  margin-top: 25px;
+  min-width: 230px;
+  padding: 7px 51px;
+}
+.landing .group-5-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 21px;
+  min-width: 1049px;
+}
+.landing .group-51 {
+  height: 287px;
+  left: 796px;
+  pointer-events: auto;
+  position: absolute;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: 255px;
+}
+.landing .group-51:hover {
+  transform: scale(1.1);
+}
+.landing .group-52 {
+  align-items: flex-start;
+  display: flex;
+  height: 169px;
+  left: 0px;
+  min-width: 809px;
+  position: absolute;
+  top: 62px;
+}
+.landing .group-53 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  margin-top: 21px;
+  min-width: 1051px;
+}
+.landing .group-55 {
+  align-items: flex-start;
+  display: flex;
+  height: 196px;
+  left: 245px;
+  min-width: 804px;
+  position: absolute;
+  top: 47px;
+}
+.landing .group-57 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+  min-height: 1679px;
+  width: 1061px;
+}
+.landing .group-58 {
+  height: 70px;
+  margin-right: 2px;
+  margin-top: 34px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 250px;
+}
+.landing .group-58:hover {
+  transform: scale(1.1);
+}
+.landing .group-59 {
+  background-color: var(--alabaster);
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 395px;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 315px;
+}
+.landing .group-59:hover {
+  transform: scale(1.1);
+}
+.landing .group-6 {
+  height: 179px;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 100px;
+}
+.landing .group-60 {
+  height: 395px;
+  margin-left: 125px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 315px;
+}
+.landing .group-60:hover {
+  transform: scale(1.1);
+}
+.landing .group-61 {
+  align-items: flex-start;
+  display: flex;
+  height: 395px;
+  justify-content: center;
+  left: 0px;
+  min-width: 315px;
+  position: absolute;
+  top: 94px;
+}
+.landing .group-62 {
+  height: 489px;
+  margin-left: 125px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 315px;
+}
+.landing .group-62:hover {
+  transform: scale(1.1);
+}
+.landing .group-64 {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 131px;
+  width: 320px;
+}
+.landing .group-65 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 384px;
+  min-height: 873px;
+  position: absolute;
+  top: 0px;
+  width: 1235px;
+}
+.landing .group-66 {
+  align-items: center;
+  display: flex;
+  height: 30px;
+  left: 0px;
+  min-width: 165px;
+  position: absolute;
+  top: 0px;
+}
+.landing .group-67 {
+  align-items: flex-start;
+  display: flex;
+  height: 926px;
+  left: 14px;
+  min-width: 2064px;
+  position: absolute;
+  top: 0px;
+}
+.landing .group-68 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-left: 432px;
+  min-height: 122px;
+  width: 142px;
+}
+.landing .group-69 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 164px;
+  width: 234px;
+}
+.landing .group-6:hover {
+  transform: scale(1.1);
+}
+.landing .group-70 {
+  align-items: center;
+  display: flex;
+  height: 164px;
+  left: 0px;
+  min-width: 806px;
+  position: absolute;
+  top: 0px;
+}
+.landing .group-73 {
+  align-items: flex-start;
+  border-radius: 5px;
+  display: flex;
+  height: 29px;
+  left: 0px;
+  min-width: 170px;
+  padding: 2px 33px;
+  position: absolute;
+  top: 0px;
+}
+.landing .group-74 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 10px;
+  min-width: 170px;
+}
+.landing .group-75 {
+  align-items: flex-start;
+  display: flex;
+  margin-top: 20px;
+  min-width: 170px;
+}
+.landing .group-76 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 891px;
+  min-height: 350px;
+  position: absolute;
+  top: 1582px;
+  width: 170px;
+}
+.landing .group-77 {
+  align-items: flex-start;
+  display: flex;
+  height: 30px;
+  left: 0px;
+  min-width: 165px;
+  position: absolute;
+  top: 76px;
+}
+.landing .group-78 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 806px;
+}
+.landing .group-79 {
+  align-items: flex-start;
+  background-color: black;
+  display: flex;
+  height: 246px;
+  margin-right: -105px;
+  margin-top: 183px;
+  min-width: 2311px;
+  padding: 33px 338px;
+}
+.landing .group-9 {
+  height: 174px;
+  margin-left: 120px;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 114px;
+}
+.landing .group-9:hover {
+  transform: scale(1.1);
+}
+.landing .group-:hover {
+  transform: scale(1.1);
+}
+.landing .instagram {
+  height: 30px;
+  left: 63px;
+  position: absolute;
+  top: 0px;
+  width: 30px;
+}
+.landing .know-apes-better {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+}
+.landing .launching {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+}
+.landing .learning-ahead {
+  letter-spacing: 0px;
+  line-height: 35px;
+  margin-left: 2px;
+  min-height: 37px;
+  min-width: 348px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .lightbulb {
+  height: 100px;
+  left: 704px;
+  position: absolute;
+  top: 0px;
+  width: 100px;
+}
+.landing .mahmoud-alaa {
+  left: 71px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 236px;
+  white-space: nowrap;
+}
+.landing .monkey {
+  height: 145px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 135px;
+}
+.landing .monkey-1 {
+  height: 100px;
+  left: 108px;
+  position: absolute;
+  top: 0px;
+  width: 100px;
+}
+.landing .one-mailbox {
+  left: 108px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 171px;
+  white-space: nowrap;
+}
+.landing .overlap-group {
+  height: 1932px;
+  left: 57px;
+  position: absolute;
+  top: 0px;
+  width: 1061px;
+}
+.landing .overlap-group-1 {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/605eebdf2aa427aaa8c9c275/releases/605f9404645bcc2807e0e122/img/path-1-1@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 88px;
+  justify-content: flex-end;
+  left: -9px;
+  min-width: 268px;
+  padding: 29.1px 52px;
+  position: relative;
+  top: -4px;
+}
+.landing .overlap-group-2 {
+  border-radius: 5px;
+  height: 29px;
+  position: relative;
+  width: 170px;
+}
+.landing .overlap-group-3 {
+  height: 289px;
+  position: relative;
+  width: 1049px;
+}
+.landing .overlap-group1 {
+  height: 926px;
+  margin-right: -98px;
+  margin-top: 222px;
+  position: relative;
+  width: 2078px;
+}
+.landing .overlap-group10 {
+  height: 1932px;
+  margin-right: 99px;
+  position: relative;
+  width: 2024px;
+}
+.landing .overlap-group2 {
+  height: 210px;
+  margin-top: 256px;
+  position: relative;
+  width: 2311px;
+}
+.landing .overlap-group3 {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/605eebdf2aa427aaa8c9c275/releases/605f9404645bcc2807e0e122/img/path-1-3@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 68px;
+  justify-content: flex-end;
+  left: -9px;
+  min-width: 196px;
+  padding: 24px 36px;
+  position: relative;
+  top: -6px;
+}
+.landing .overlap-group3-1 {
+  height: 293px;
+  position: relative;
+}
+.landing .overlap-group3-10 {
+  height: 152px;
+  position: relative;
+  width: 783px;
+}
+.landing .overlap-group3-11 {
+  height: 926px;
+  position: relative;
+  width: 2064px;
+}
+.landing .overlap-group3-12 {
+  height: 164px;
+  position: relative;
+  width: 806px;
+}
+.landing .overlap-group3-2 {
+  height: 291px;
+  position: relative;
+}
+.landing .overlap-group3-3 {
+  height: 86px;
+  margin-bottom: -9px;
+  position: relative;
+  width: 378px;
+}
+.landing .overlap-group3-4 {
+  height: 145px;
+  margin-top: -0px;
+  position: relative;
+  width: 135px;
+}
+.landing .overlap-group3-5 {
+  height: 42px;
+  position: relative;
+  width: 376px;
+}
+.landing .overlap-group3-6 {
+  height: 42px;
+  position: relative;
+  width: 362px;
+}
+.landing .overlap-group3-7 {
+  height: 42px;
+  position: relative;
+  width: 331px;
+}
+.landing .overlap-group3-8 {
+  height: 42px;
+  position: relative;
+  width: 283px;
+}
+.landing .overlap-group3-9 {
+  height: 167px;
+  position: relative;
+  width: 783px;
+}
+.landing .overlap-group4 {
+  height: 58px;
+  margin-left: 2px;
+  position: relative;
+  width: 690px;
+}
+.landing .overlap-group4-1 {
+  height: 289px;
+  position: relative;
+  width: 1045px;
+}
+.landing .overlap-group4-2 {
+  height: 175px;
+  position: relative;
+  width: 813px;
+}
+.landing .overlap-group4-3 {
+  height: 174px;
+  position: relative;
+  width: 804px;
+}
+.landing .overlap-group4-4 {
+  height: 169px;
+  position: relative;
+  width: 809px;
+}
+.landing .overlap-group4-5 {
+  height: 196px;
+  position: relative;
+  width: 804px;
+}
+.landing .overlap-group4-6 {
+  align-self: center;
+  height: 57px;
+  margin-left: 11px;
+  position: relative;
+  width: 594px;
+}
+.landing .overlap-group4-7 {
+  height: 30px;
+  position: relative;
+  width: 165px;
+}
+.landing .overlap-group5 {
+  height: 160px;
+  position: relative;
+  width: 800px;
+}
+.landing .overlap-group5-1 {
+  height: 42px;
+  position: relative;
+  width: 306px;
+}
+.landing .overlap-group5-2 {
+  height: 42px;
+  position: relative;
+  width: 268px;
+}
+.landing .overlap-group5-3 {
+  align-items: center;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/605eebdf2aa427aaa8c9c275/releases/605f63f6661cdd20c8e72c38/img/path-2-1@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: -6px;
+  min-height: 413px;
+  padding: 27.5px 15px;
+  width: 333px;
+}
+.landing .overlap-group6 {
+  height: 287px;
+  position: relative;
+  width: 1055px;
+}
+.landing .overlap-group6-1 {
+  align-items: center;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/605eebdf2aa427aaa8c9c275/releases/605f63f6661cdd20c8e72c38/img/path-2@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  left: -9px;
+  min-height: 413px;
+  padding: 27.5px 35px;
+  position: relative;
+  top: -6px;
+  width: 333px;
+}
+.landing .overlap-group7 {
+  height: 489px;
+  position: relative;
+}
+.landing .overlap-group8 {
+  height: 287px;
+  position: relative;
+  width: 1051px;
+}
+.landing .paint {
+  height: 100px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100px;
+}
+.landing .place {
+  letter-spacing: 0px;
+  line-height: 16px;
+  margin-left: 1008px;
+  margin-top: 9px;
+  min-height: 24px;
+  min-width: 49px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.landing .place:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+  color: black;
+}
+.landing .portfolio {
+  letter-spacing: 0px;
+  line-height: 16px;
+  margin-left: 38px;
+  margin-top: 9px;
+  min-height: 24px;
+  min-width: 72px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.landing .portfolio:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+  color: black;
+}
+.landing .react-1543566-1306069 {
+  align-self: center;
+  height: 60px;
+  margin-left: 90px;
+  width: 60px;
+}
+.landing .rectangle-1 {
+  background-color: var(--golden-fizz);
+  height: 15px;
+  left: 69px;
+  position: absolute;
+  top: 43px;
+  width: 250px;
+}
+.landing .rectangle-1-1 {
+  background-color: var(--golden-fizz);
+  height: 15px;
+  left: 126px;
+  position: absolute;
+  top: 20px;
+  width: 250px;
+}
+.landing .rectangle-1-2 {
+  background-color: var(--golden-fizz);
+  height: 15px;
+  left: 125px;
+  position: absolute;
+  top: 27px;
+  width: 250px;
+}
+.landing .rectangle-1-3 {
+  background-color: var(--golden-fizz);
+  height: 15px;
+  left: 112px;
+  position: absolute;
+  top: 27px;
+  width: 250px;
+}
+.landing .rectangle-1-4 {
+  background-color: var(--golden-fizz);
+  height: 15px;
+  left: 81px;
+  position: absolute;
+  top: 27px;
+  width: 250px;
+}
+.landing .rectangle-1-5 {
+  background-color: var(--golden-fizz);
+  height: 15px;
+  left: 33px;
+  position: absolute;
+  top: 27px;
+  width: 250px;
+}
+.landing .rectangle-1-6 {
+  background-color: var(--golden-fizz);
+  height: 15px;
+  left: 56px;
+  position: absolute;
+  top: 27px;
+  width: 250px;
+}
+.landing .rectangle-1-7 {
+  background-color: var(--golden-fizz);
+  height: 15px;
+  left: 18px;
+  position: absolute;
+  top: 27px;
+  width: 250px;
+}
+.landing .rectangle-11 {
+  background-color: var(--golden-fizz);
+  height: 226px;
+  left: 0px;
+  opacity: 0.19;
+  position: absolute;
+  top: 700px;
+  width: 2064px;
+}
+.landing .rectangle-6 {
+  background-color: var(--alabaster);
+  border-radius: 25px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 137px;
+  left: 30px;
+  position: absolute;
+  top: 38px;
+  width: 783px;
+}
+.landing .rectangle-6-1 {
+  background-color: var(--alabaster);
+  border-radius: 25px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 137px;
+  left: 0px;
+  position: absolute;
+  top: 30px;
+  width: 783px;
+}
+.landing .rectangle-7 {
+  background-color: var(--alabaster);
+  border-radius: 25px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 137px;
+  left: 0px;
+  position: absolute;
+  top: 23px;
+  width: 783px;
+}
+.landing .rectangle-8 {
+  background-color: var(--alabaster);
+  border-radius: 25px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 137px;
+  left: 0px;
+  position: absolute;
+  top: 37px;
+  width: 783px;
+}
+.landing .rectangle-8-1 {
+  background-color: var(--alabaster);
+  border-radius: 25px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+  height: 137px;
+  left: 0px;
+  position: absolute;
+  top: 15px;
+  width: 783px;
+}
+.landing .rectangle-9 {
+  background-color: var(--golden-fizz);
+  height: 15px;
+  left: 21px;
+  position: absolute;
+  top: 42px;
+  width: 250px;
+}
+.landing .software-solutions {
+  letter-spacing: 0px;
+  line-height: 16px;
+  margin-left: 38px;
+  margin-top: 9px;
+  min-height: 24px;
+  min-width: 152px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.landing .software-solutions:hover {
+  transform: translate(0, -5px);
+  box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
+  color: black;
+}
+.landing .span {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Helvetica-Light", Helvetica;
+  font-size: 10px;
+  font-weight: 300;
+}
+.landing .span-1 {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Helvetica-Oblique", Helvetica;
+  font-size: 15px;
+}
+.landing .span-2 {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Helvetica-Light", Helvetica;
+  font-size: 15px;
+  font-weight: 300;
+}
+.landing .span0-1 {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Open Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+}
+.landing .span1-1 {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Helvetica-Light", Helvetica;
+  font-size: 18px;
+  font-weight: 300;
+}
+.landing .standard-packages {
+  font-family: "Bungee", Helvetica;
+  font-size: 50px;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+}
+.landing .startup {
+  height: 100px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100px;
+}
+.landing .startups {
+  letter-spacing: 0px;
+  line-height: 25px;
+  margin-bottom: -2px;
+  margin-left: 221px;
+  min-height: 27px;
+  min-width: 96px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .swift-15-761717 {
+  height: 65px;
+  margin-left: 100px;
+  width: 65px;
+}
+.landing .text- {
+  color: white;
+  font-family: "Bungee", Helvetica;
+  font-size: 75px;
+  letter-spacing: 0px;
+  line-height: 75px;
+  min-height: 77px;
+  min-width: 52px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text--1 {
+  left: 79px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: center;
+  top: 257px;
+  white-space: nowrap;
+}
+.landing .text--2 {
+  left: 79px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: center;
+  top: 255px;
+  white-space: nowrap;
+}
+.landing .text-1 {
+  font-family: "Bungee", Helvetica;
+  font-size: 50px;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+}
+.landing .text-11 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-left: 2px;
+  margin-top: 57px;
+  min-height: 106px;
+  min-width: 124px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text-12 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-top: 29px;
+  min-height: 106px;
+  min-width: 144px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text-13 {
+  font-family: "Helvetica-Light", Helvetica;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  line-height: 18px;
+  margin-left: 2px;
+  margin-top: 17px;
+  min-height: 20px;
+  min-width: 184px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text-15 {
+  left: 74px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 84px;
+  white-space: nowrap;
+}
+.landing .text-16 {
+  left: 46px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 234px;
+  white-space: nowrap;
+}
+.landing .text-18 {
+  left: 169px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 84px;
+  white-space: nowrap;
+}
+.landing .text-2 {
+  font-family: "Helvetica-Light", Helvetica;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  line-height: 18px;
+  margin-left: 2px;
+  margin-top: 32px;
+  min-height: 42px;
+  min-width: 484px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text-20 {
+  left: 88px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 98px;
+  white-space: nowrap;
+}
+.landing .text-22 {
+  left: 86px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 78px;
+  white-space: nowrap;
+}
+.landing .text-24 {
+  left: 79px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 76px;
+  white-space: nowrap;
+}
+.landing .text-25 {
+  left: 30px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 76px;
+  white-space: nowrap;
+}
+.landing .text-26 {
+  left: 50px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 132px;
+  white-space: nowrap;
+}
+.landing .text-27 {
+  left: 73px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 210px;
+  white-space: nowrap;
+}
+.landing .text-28 {
+  left: 48px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 250px;
+  white-space: nowrap;
+}
+.landing .text-29 {
+  letter-spacing: 0px;
+  line-height: 25px;
+  min-height: 27px;
+  min-width: 320px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text-3 {
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: center;
+  top: 124px;
+  white-space: nowrap;
+}
+.landing .text-3-1 {
+  letter-spacing: 0px;
+  line-height: 15px;
+  margin-right: 7px;
+  margin-top: 20px;
+  min-height: 35px;
+  min-width: 208px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text-3-2 {
+  letter-spacing: 0px;
+  line-height: 15px;
+  margin-right: 7px;
+  margin-top: 15px;
+  min-height: 35px;
+  min-width: 212px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text-30 {
+  align-self: flex-start;
+  letter-spacing: 0px;
+  line-height: 15px;
+  margin-left: 1px;
+  margin-top: 2px;
+  min-height: 53px;
+  min-width: 254px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text-32 {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  line-height: 15px;
+  margin-top: 12px;
+  min-height: 17px;
+  min-width: 260px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text-34 {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  line-height: 15px;
+  margin-top: 2px;
+  min-height: 53px;
+  min-width: 300px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text-36 {
+  letter-spacing: 0px;
+  line-height: 15px;
+  margin-left: 3px;
+  margin-top: 12px;
+  min-height: 17px;
+  min-width: 260px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text-38 {
+  font-family: "HelveticaNeue-Light", Helvetica;
+  font-size: 15px;
+  font-weight: 300;
+  height: 302px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  margin-left: 150px;
+  min-height: 302px;
+  width: 302px;
+}
+.landing .text-39 {
+  letter-spacing: 0px;
+  line-height: 15px;
+  margin-top: 94px;
+  min-height: 17px;
+  min-width: 234px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text-4 {
+  left: 17px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: center;
+  top: 124px;
+  white-space: nowrap;
+}
+.landing .text-5 {
+  left: 18px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: center;
+  top: 124px;
+  white-space: nowrap;
+}
+.landing .text-6 {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: center;
+  top: 119px;
+  white-space: nowrap;
+}
+.landing .text-7 {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+}
+.landing .text-9 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-top: 56px;
+  min-height: 94px;
+  min-width: 164px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .the-background {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+}
+.landing .the-idea {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 35px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+}
+.landing .untitled- {
+  height: 253px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 255px;
+}
+.landing .virtual-reality {
+  height: 100px;
+  left: 704px;
+  position: absolute;
+  top: 0px;
+  width: 100px;
+}
+.landing .visit-portfolio {
+  font-family: "Open Sans", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 18px;
+  min-height: 26px;
+  min-width: 124px;
+  pointer-events: auto;
+  text-align: center;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.landing .visit-portfolio:hover {
+  text-decoration: underline;
+}
+.landing .x016-megaphone {
+  height: 100px;
+  left: 6px;
+  position: absolute;
+  top: 0px;
+  width: 100px;
+}
+.landing .x017-brain {
+  height: 300px;
+  margin-top: 71px;
+  width: 300px;
+}
+.landing .x021-stopwatch {
+  height: 100px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100px;
+}
+.landing .x026-learning {
+  height: 100px;
+  left: 700px;
+  position: absolute;
+  top: 0px;
+  width: 100px;
+}
+.landing .x032-idea {
+  height: 100px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100px;
+}
+.landing .x047-growth {
+  height: 100px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100px;
+}
+.landing .x102664555-e8d1c-c0-ef3511b2aa6b {
+  align-self: center;
+  height: 60px;
+  margin-left: -160px;
+  width: 60px;
+}
+.landing .x152843 {
+  align-self: center;
+  height: 60px;
+  margin-left: 100px;
+  width: 60px;
+}
+.landing .x97-dockerlogologos-512 {
+  height: 65px;
+  margin-left: 90px;
+  width: 65px;
+}
+.landing .xmlid827 {
+  height: 25px;
+  margin-bottom: 0px;
+  margin-left: 120px;
+  width: 30px;
+}
+.landing .xmlid834 {
+  align-self: flex-end;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/605eebdf2aa427aaa8c9c275/releases/605f69e4ad09ea041add5e87/img/xmlid-835-@1x.png);
+  background-size: 100% 100%;
+  height: 30px;
+  margin-bottom: -0px;
+  width: 15px;
+}
+.landing .ziad-shebl {
+  left: 90px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 236px;
+  white-space: nowrap;
+}
+.opensans-bold-black-15px {
+  color: black;
+  font-family: "Open Sans", Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+.opensans-bold-dove-gray-16px {
+  color: var(--dove-gray);
+  font-family: "Open Sans", Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+}
+.opensans-light-black-18px {
+  color: black;
+  font-family: "Open Sans", Helvetica;
+  font-size: 18px;
+}
+:root {
+  --alabaster: rgba(250, 250, 250, 1);
+  --dove-gray: rgba(112, 112, 112, 1);
+  --golden-fizz: rgba(245, 238, 49, 1);
+  --maroon-flush: rgba(199, 28, 74, 1);
+  --midnight-pearl: rgba(97, 32, 99, 1);
+  --quick-silver: rgba(165, 165, 165, 1);
+  --quick-silver-2: rgba(166, 166, 166, 1);
+  --quill-gray: rgba(214, 213, 213, 1);
+}
+.align-self-flex-end {
+  align-self: flex-end;
+}
+a {
+  text-decoration: none;
+  display: contents;
+}
