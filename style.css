@@ -5,28 +5,28 @@
   font-family: "Helvetica-Oblique";
   font-style: normal;
   font-weight: 400;
-  src: url("https://fonts.animaapp.com/Helvetica-Oblique") format("truetype");
+  src: url("./fonts/Helvetica-Oblique.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Helvetica-Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("https://fonts.animaapp.com/Helvetica-Regular") format("truetype");
+  src: url("./fonts/Helvetica-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "HelveticaNeue-Light";
   font-style: normal;
   font-weight: 300;
-  src: url("https://fonts.animaapp.com/HelveticaNeue-Light") format("opentype");
+  src: url("./fonts/HelveticaNeue-Light.otf") format("opentype");
 }
 
 @font-face {
   font-family: "Helvetica-Light";
   font-style: normal;
   font-weight: 300;
-  src: url("https://fonts.animaapp.com/Helvetica-Light") format("truetype");
+  src: url("./fonts/Helvetica%20Light.ttf") format("truetype");
 }
 
 * {
@@ -35,8 +35,8 @@
 .border-1px-dove-gray {
   border: 1px solid var(--dove-gray);
 }
-.border-3px-quick-silver-2 {
-  border: 3px solid var(--quick-silver-2);
+.border-3px-quick-silver {
+  border: 3px solid var(--quick-silver);
 }
 .border-5px-golden-fizz {
   border: 5px solid var(--golden-fizz);
@@ -58,6 +58,13 @@
   font-style: normal;
   font-weight: 400;
 }
+.bungee-normal-black-50px {
+  color: black;
+  font-family: "Bungee", Helvetica;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+}
 .helvetica-light-black-10px {
   color: black;
   font-family: "Helvetica-Light", Helvetica;
@@ -71,11 +78,6 @@
   font-size: 15px;
   font-style: normal;
   font-weight: 300;
-}
-.helvetica-light-black-15px-2 {
-  color: black;
-  font-family: "Helvetica", Helvetica;
-  font-size: 15px;
 }
 .helvetica-light-white-15px {
   color: white;
@@ -98,33 +100,33 @@
   flex-direction: column;
   height: 6466px;
   overflow: hidden;
+  padding: 19px 0;
   width: 1920px;
 }
 .landing .abdelrahman-emam {
-  left: 52px;
+  left: 55px;
   letter-spacing: 0px;
   line-height: 15px;
   position: absolute;
   text-align: center;
-  top: 236px;
+  top: 237px;
   white-space: nowrap;
 }
 .landing .abdelrahman-shahda {
-  left: 47px;
   letter-spacing: 0px;
   line-height: 15px;
-  position: absolute;
+  min-height: 17px;
+  min-width: 156px;
   text-align: center;
-  top: 234px;
   white-space: nowrap;
 }
 .landing .about-us {
   letter-spacing: 0px;
   line-height: 16px;
-  margin-left: 38px;
-  margin-top: 9px;
-  min-height: 24px;
-  min-width: 73px;
+  margin-left: 43px;
+  margin-top: 7px;
+  min-height: 18px;
+  min-width: 71px;
   pointer-events: auto;
   transition: all 0.2s ease;
   white-space: nowrap;
@@ -140,7 +142,7 @@
   line-height: 15px;
   position: absolute;
   text-align: center;
-  top: 306px;
+  top: 328px;
   white-space: nowrap;
 }
 .landing .address-1 {
@@ -184,8 +186,8 @@
   font-weight: 700;
   letter-spacing: 0px;
   line-height: 25px;
-  min-height: 36px;
-  min-width: 62px;
+  min-height: 27px;
+  min-width: 64px;
   text-align: center;
   white-space: nowrap;
 }
@@ -211,7 +213,7 @@
   width: 18px;
 }
 .landing .apple-store {
-  color: var(--quick-silver);
+  color: var(--quick-silver-2);
   font-family: "Open Sans", Helvetica;
   font-size: 12px;
   font-weight: 700;
@@ -220,7 +222,7 @@
   line-height: 12px;
   position: absolute;
   text-align: center;
-  top: 8px;
+  top: 10px;
   white-space: nowrap;
 }
 .landing .asfar-studio {
@@ -236,12 +238,12 @@
   font-family: "Open Sans", Helvetica;
   font-size: 25px;
   font-weight: 700;
-  left: 71px;
+  left: 70px;
   letter-spacing: 0px;
   line-height: 25px;
   position: absolute;
   text-align: center;
-  top: 22px;
+  top: 25px;
   white-space: nowrap;
 }
 .landing .book-a-meeting {
@@ -289,8 +291,8 @@
   letter-spacing: 0px;
   line-height: 25px;
   margin-left: 3px;
-  min-height: 36px;
-  min-width: 220px;
+  min-height: 27px;
+  min-width: 222px;
   text-align: center;
   white-space: nowrap;
 }
@@ -301,6 +303,24 @@
   min-height: 27px;
   min-width: 130px;
   text-align: center;
+  white-space: nowrap;
+}
+.landing .co-founder-of-apes {
+  left: 82px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: center;
+  top: 253px;
+  white-space: nowrap;
+}
+.landing .co-founder-of-apes-1 {
+  left: 82px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: center;
+  top: 255px;
   white-space: nowrap;
 }
 .landing .consumers {
@@ -320,7 +340,7 @@
   font-weight: 300;
   letter-spacing: 0px;
   line-height: 20px;
-  margin-top: 17px;
+  margin-top: 23px;
   min-height: 22px;
   min-width: 102px;
   pointer-events: auto;
@@ -349,8 +369,8 @@
   letter-spacing: 0px;
   line-height: 25px;
   margin-left: 3px;
-  min-height: 36px;
-  min-width: 166px;
+  min-height: 27px;
+  min-width: 164px;
   text-align: center;
   white-space: nowrap;
 }
@@ -373,20 +393,36 @@
   display: flex;
   flex-direction: column;
   margin-right: -240px;
-  min-height: 2398px;
+  min-height: 2379px;
   width: 2311px;
 }
 .landing .flex-col-1 {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  left: 1848px;
-  min-height: 1138px;
-  position: absolute;
-  top: 690px;
-  width: 176px;
+  margin-top: 106px;
+  min-height: 1118px;
+  width: 184px;
 }
 .landing .flex-col-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 441px;
+  min-height: 1675px;
+  width: 784px;
+}
+.landing .flex-col-3 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 105.29px;
+  margin-left: 439px;
+  min-height: 1138px;
+  width: 176px;
+}
+.landing .flex-col-4 {
   align-items: center;
   align-self: flex-end;
   display: flex;
@@ -394,7 +430,7 @@
   min-height: 1118px;
   width: 184px;
 }
-.landing .flex-col-3 {
+.landing .flex-col-5 {
   align-items: flex-start;
   align-self: center;
   display: flex;
@@ -407,25 +443,32 @@
 .landing .flex-row {
   align-items: flex-start;
   display: flex;
+  height: 1675px;
+  margin-right: 99px;
+  margin-top: 184px;
+  min-width: 2024px;
+}
+.landing .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
   height: 1783px;
   margin-right: -47px;
   margin-top: 245px;
   min-width: 2024px;
 }
-.landing .flex-row-1 {
+.landing .flex-row-2 {
   align-items: flex-end;
   display: flex;
   min-width: 1195px;
 }
-.landing .flex-row-2 {
-  align-items: flex-start;
+.landing .flex-row-3 {
+  align-items: flex-end;
   align-self: flex-end;
   display: flex;
-  height: 321px;
-  margin-top: 6px;
+  margin-top: 44px;
   min-width: 772px;
 }
-.landing .flex-row-3 {
+.landing .flex-row-4 {
   align-items: flex-start;
   display: flex;
   height: 270px;
@@ -442,19 +485,6 @@
   top: 0px;
   white-space: nowrap;
 }
-.landing .google-play {
-  font-family: "Open Sans", Helvetica;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0px;
-  line-height: 12px;
-  min-height: 19px;
-  min-width: 72px;
-  pointer-events: auto;
-  text-align: center;
-  transition: all 0.2s ease;
-  white-space: nowrap;
-}
 .landing .google-play-2-555322 {
   height: 18px;
   left: 37px;
@@ -462,11 +492,8 @@
   top: 6px;
   width: 18px;
 }
-.landing .google-play:hover {
-  text-decoration: underline;
-}
 .landing .group- {
-  height: 179px;
+  height: 180px;
   margin-left: 126px;
   pointer-events: auto;
   position: relative;
@@ -474,7 +501,7 @@
   width: 100px;
 }
 .landing .group--1 {
-  height: 289px;
+  height: 265px;
   left: 0px;
   pointer-events: auto;
   position: absolute;
@@ -496,30 +523,24 @@
   margin-top: 79px;
   min-width: 784px;
 }
-.landing .group-11 {
+.landing .Home {
   align-items: center;
   display: flex;
   flex-direction: column;
-  left: 625px;
-  min-height: 973px;
-  position: absolute;
-  top: 258px;
+  min-height: 974px;
   width: 784px;
 }
 .landing .group-12 {
   align-items: flex-start;
   display: flex;
-  height: 55px;
-  left: 101px;
+  margin-right: 99px;
   min-width: 1822px;
-  position: absolute;
-  top: 19px;
 }
 .landing .group-13 {
   align-items: flex-end;
   display: flex;
   height: 84px;
-  margin-left: 2px;
+  margin-left: 44px;
   min-width: 378px;
 }
 .landing .group-15 {
@@ -545,50 +566,40 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-top: 2.69px;
-  min-height: 252px;
+  min-height: 253px;
   width: 164px;
 }
 .landing .group-16-1 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  margin-left: 440px;
-  min-height: 264px;
+  margin-left: 398px;
+  min-height: 265px;
   width: 126px;
 }
 .landing .group-2 {
-  height: 170px;
-  left: 0px;
-  position: absolute;
-  top: 364px;
-  width: 176px;
+  align-items: center;
+  display: flex;
+  min-width: 1603px;
 }
 .landing .group-2-1 {
   height: 170px;
-  width: 176px;
-}
-.landing .group-2-10 {
-  align-self: flex-end;
-  height: 170px;
-  margin-left: 401px;
+  margin-right: 8px;
   width: 176px;
 }
 .landing .group-2-2 {
   height: 170px;
-  margin-top: 798px;
+  margin-left: 8px;
+  margin-top: 778px;
   width: 176px;
 }
 .landing .group-2-3 {
-  align-items: center;
-  display: flex;
-  min-width: 1605px;
+  height: 170px;
+  width: 176px;
 }
 .landing .group-2-4 {
   height: 170px;
-  left: 8px;
-  position: absolute;
-  top: 1312px;
+  margin-top: 798px;
   width: 176px;
 }
 .landing .group-2-5 {
@@ -601,28 +612,23 @@
 }
 .landing .group-2-6 {
   height: 170px;
-  margin-right: 8px;
-  width: 176px;
-}
-.landing .group-2-7 {
-  height: 170px;
-  margin-left: 8px;
-  margin-top: 778px;
-  width: 176px;
-}
-.landing .group-2-8 {
-  height: 170px;
   left: 1851px;
   position: absolute;
   top: 243px;
   width: 176px;
 }
-.landing .group-2-9 {
+.landing .group-2-7 {
   border-radius: 85px;
   height: 170px;
   left: 0px;
   position: absolute;
   top: 518px;
+  width: 176px;
+}
+.landing .group-2-8 {
+  align-self: flex-end;
+  height: 170px;
+  margin-left: 401px;
   width: 176px;
 }
 .landing .group-20 {
@@ -634,11 +640,11 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  left: 596px;
-  min-height: 438px;
+  left: 0px;
+  min-height: 440px;
   position: absolute;
-  top: 1416px;
-  width: 729px;
+  top: 0px;
+  width: 687px;
 }
 .landing .group-25 {
   align-items: flex-start;
@@ -658,12 +664,12 @@
   display: flex;
   flex-direction: column;
   margin-left: 5px;
-  min-height: 262px;
+  min-height: 265px;
   width: 142px;
 }
 .landing .group-3 {
   height: 50px;
-  margin-left: 39px;
+  margin-left: 41px;
   pointer-events: auto;
   transition: all 0.2s ease;
   width: 178px;
@@ -671,19 +677,20 @@
 .landing .group-30 {
   align-items: center;
   display: flex;
-  height: 264px;
-  margin-top: 90px;
-  min-width: 729px;
+  height: 265px;
+  margin-top: 91px;
+  min-width: 687px;
 }
 .landing .group-31 {
   align-items: flex-end;
-  border-radius: 5px;
+  background-image: url(./img/path-3@1x.png);
+  background-size: 100% 100%;
   display: flex;
   height: 29px;
   justify-content: flex-end;
   left: 0px;
   min-width: 170px;
-  padding: 4.5px 41px;
+  padding: 7.4px 40.5px;
   position: absolute;
   top: 0px;
 }
@@ -828,7 +835,7 @@
   min-width: 1045px;
 }
 .landing .group-47 {
-  height: 287px;
+  height: 263px;
   left: 800px;
   pointer-events: auto;
   position: absolute;
@@ -842,30 +849,31 @@
 .landing .group-48 {
   align-items: flex-start;
   display: flex;
-  margin-top: 21px;
+  margin-top: 45px;
   min-width: 1055px;
 }
 .landing .group-4:hover {
   transform: scale(1.1);
 }
 .landing .group-5 {
-  align-items: flex-start;
+  background-color: white;
   border-radius: 5px;
-  display: flex;
   height: 41px;
   margin-left: 2px;
   margin-top: 25px;
-  min-width: 230px;
-  padding: 7px 51px;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 230px;
 }
 .landing .group-5-1 {
   align-items: flex-start;
   display: flex;
-  margin-top: 21px;
+  margin-top: 45px;
   min-width: 1049px;
 }
 .landing .group-51 {
-  height: 287px;
+  height: 263px;
   left: 796px;
   pointer-events: auto;
   position: absolute;
@@ -889,7 +897,7 @@
   align-items: flex-start;
   align-self: flex-end;
   display: flex;
-  margin-top: 21px;
+  margin-top: 45px;
   min-width: 1051px;
 }
 .landing .group-55 {
@@ -901,12 +909,12 @@
   position: absolute;
   top: 47px;
 }
-.landing .group-57 {
+.landing .About-Us {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
   margin-left: 300px;
-  min-height: 1679px;
+  min-height: 1655px;
   width: 1061px;
 }
 .landing .group-58 {
@@ -933,8 +941,11 @@
 .landing .group-59:hover {
   transform: scale(1.1);
 }
+.landing .group-5:hover {
+  transform: scale(1.1);
+}
 .landing .group-6 {
-  height: 179px;
+  height: 180px;
   pointer-events: auto;
   position: relative;
   transition: all 0.2s ease;
@@ -972,9 +983,9 @@
 }
 .landing .group-64 {
   align-items: center;
-  align-self: flex-end;
   display: flex;
   flex-direction: column;
+  margin-bottom: 18.78px;
   min-height: 131px;
   width: 320px;
 }
@@ -983,7 +994,7 @@
   display: flex;
   flex-direction: column;
   left: 384px;
-  min-height: 873px;
+  min-height: 890px;
   position: absolute;
   top: 0px;
   width: 1235px;
@@ -997,7 +1008,7 @@
   position: absolute;
   top: 0px;
 }
-.landing .group-67 {
+.landing .Software-Solutions {
   align-items: flex-start;
   display: flex;
   height: 926px;
@@ -1010,9 +1021,9 @@
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   margin-left: 432px;
-  min-height: 122px;
+  min-height: 114px;
   width: 142px;
 }
 .landing .group-69 {
@@ -1036,6 +1047,7 @@
 }
 .landing .group-73 {
   align-items: flex-start;
+  background-color: white;
   border-radius: 5px;
   display: flex;
   height: 29px;
@@ -1052,20 +1064,14 @@
   min-width: 170px;
 }
 .landing .group-75 {
-  align-items: flex-start;
-  display: flex;
-  margin-top: 20px;
-  min-width: 170px;
-}
-.landing .group-76 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  left: 891px;
-  min-height: 350px;
-  position: absolute;
-  top: 1582px;
+  height: 29px;
+  margin-top: 17px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
   width: 170px;
+}
+.landing .group-75:hover {
+  transform: scale(1.1);
 }
 .landing .group-77 {
   align-items: flex-start;
@@ -1091,8 +1097,25 @@
   min-width: 2311px;
   padding: 33px 338px;
 }
+.landing .group-88 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 280px;
+  min-height: 350px;
+  position: absolute;
+  top: 166px;
+  width: 170px;
+}
+.landing .Portfolio {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 42px;
+  margin-top: 184px;
+  min-width: 687px;
+}
 .landing .group-9 {
-  height: 174px;
+  height: 175px;
   margin-left: 120px;
   pointer-events: auto;
   position: relative;
@@ -1147,12 +1170,12 @@
   width: 100px;
 }
 .landing .mahmoud-alaa {
-  left: 71px;
+  left: 75px;
   letter-spacing: 0px;
   line-height: 15px;
   position: absolute;
   text-align: center;
-  top: 236px;
+  top: 237px;
   white-space: nowrap;
 }
 .landing .monkey {
@@ -1175,19 +1198,19 @@
   line-height: 15px;
   position: absolute;
   text-align: center;
-  top: 171px;
+  top: 193px;
   white-space: nowrap;
 }
 .landing .overlap-group {
-  height: 1932px;
-  left: 57px;
-  position: absolute;
-  top: 0px;
-  width: 1061px;
+  height: 926px;
+  margin-right: -98px;
+  margin-top: 222px;
+  position: relative;
+  width: 2078px;
 }
 .landing .overlap-group-1 {
   align-items: flex-start;
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/605eebdf2aa427aaa8c9c275/releases/605f9404645bcc2807e0e122/img/path-1-1@1x.png);
+  background-image: url(./img/path-1-1@1x.png);
   background-size: 100% 100%;
   display: flex;
   height: 88px;
@@ -1199,38 +1222,19 @@
   top: -4px;
 }
 .landing .overlap-group-2 {
-  border-radius: 5px;
-  height: 29px;
-  position: relative;
-  width: 170px;
-}
-.landing .overlap-group-3 {
-  height: 289px;
+  height: 265px;
   position: relative;
   width: 1049px;
 }
 .landing .overlap-group1 {
-  height: 926px;
-  margin-right: -98px;
-  margin-top: 222px;
-  position: relative;
-  width: 2078px;
-}
-.landing .overlap-group10 {
-  height: 1932px;
-  margin-right: 99px;
-  position: relative;
-  width: 2024px;
-}
-.landing .overlap-group2 {
   height: 210px;
-  margin-top: 256px;
+  margin-top: 255px;
   position: relative;
   width: 2311px;
 }
-.landing .overlap-group3 {
+.landing .overlap-group2 {
   align-items: flex-start;
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/605eebdf2aa427aaa8c9c275/releases/605f9404645bcc2807e0e122/img/path-1-3@1x.png);
+  background-image: url(./img/path-1-3@1x.png);
   background-size: 100% 100%;
   display: flex;
   height: 68px;
@@ -1241,161 +1245,201 @@
   position: relative;
   top: -6px;
 }
-.landing .overlap-group3-1 {
-  height: 293px;
-  position: relative;
+.landing .overlap-group2-1 {
+  height: 254px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 255px;
 }
-.landing .overlap-group3-10 {
+.landing .overlap-group2-10 {
+  height: 167px;
+  position: relative;
+  width: 783px;
+}
+.landing .overlap-group2-11 {
   height: 152px;
   position: relative;
   width: 783px;
 }
-.landing .overlap-group3-11 {
+.landing .overlap-group2-12 {
   height: 926px;
   position: relative;
   width: 2064px;
 }
-.landing .overlap-group3-12 {
+.landing .overlap-group2-13 {
   height: 164px;
   position: relative;
   width: 806px;
 }
-.landing .overlap-group3-2 {
-  height: 291px;
-  position: relative;
-}
-.landing .overlap-group3-3 {
+.landing .overlap-group2-2 {
   height: 86px;
   margin-bottom: -9px;
   position: relative;
   width: 378px;
 }
-.landing .overlap-group3-4 {
+.landing .overlap-group2-3 {
   height: 145px;
   margin-top: -0px;
   position: relative;
   width: 135px;
 }
-.landing .overlap-group3-5 {
+.landing .overlap-group2-4 {
   height: 42px;
   position: relative;
   width: 376px;
 }
-.landing .overlap-group3-6 {
+.landing .overlap-group2-5 {
   height: 42px;
   position: relative;
   width: 362px;
 }
-.landing .overlap-group3-7 {
+.landing .overlap-group2-6 {
+  align-items: flex-end;
+  background-image: url(./img/untitled-2@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 253px;
+  justify-content: flex-end;
+  left: 0px;
+  min-width: 255px;
+  padding: 1px 47px;
+  position: absolute;
+  top: 0px;
+}
+.landing .overlap-group2-7 {
   height: 42px;
   position: relative;
   width: 331px;
 }
-.landing .overlap-group3-8 {
+.landing .overlap-group2-8 {
   height: 42px;
   position: relative;
   width: 283px;
 }
-.landing .overlap-group3-9 {
-  height: 167px;
-  position: relative;
-  width: 783px;
+.landing .overlap-group2-9 {
+  align-items: flex-end;
+  background-image: url(./img/untitled-2-1@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 253px;
+  justify-content: flex-end;
+  left: 0px;
+  min-width: 255px;
+  padding: 1px 48px;
+  position: absolute;
+  top: 0px;
 }
-.landing .overlap-group4 {
+.landing .overlap-group3 {
   height: 58px;
   margin-left: 2px;
   position: relative;
   width: 690px;
 }
-.landing .overlap-group4-1 {
-  height: 289px;
+.landing .overlap-group3-1 {
+  height: 29px;
+  position: relative;
+}
+.landing .overlap-group3-2 {
+  height: 265px;
   position: relative;
   width: 1045px;
 }
-.landing .overlap-group4-2 {
+.landing .overlap-group3-3 {
   height: 175px;
   position: relative;
   width: 813px;
 }
-.landing .overlap-group4-3 {
+.landing .overlap-group3-4 {
   height: 174px;
   position: relative;
   width: 804px;
 }
-.landing .overlap-group4-4 {
+.landing .overlap-group3-5 {
   height: 169px;
   position: relative;
   width: 809px;
 }
-.landing .overlap-group4-5 {
+.landing .overlap-group3-6 {
   height: 196px;
   position: relative;
   width: 804px;
 }
-.landing .overlap-group4-6 {
+.landing .overlap-group3-7 {
   align-self: center;
   height: 57px;
   margin-left: 11px;
   position: relative;
   width: 594px;
 }
-.landing .overlap-group4-7 {
+.landing .overlap-group3-8 {
   height: 30px;
   position: relative;
   width: 165px;
 }
-.landing .overlap-group5 {
+.landing .overlap-group4 {
+  border-radius: 5px;
+  height: 29px;
+  position: relative;
+  width: 170px;
+}
+.landing .overlap-group4-1 {
   height: 160px;
   position: relative;
   width: 800px;
 }
-.landing .overlap-group5-1 {
+.landing .overlap-group4-2 {
   height: 42px;
   position: relative;
   width: 306px;
 }
-.landing .overlap-group5-2 {
+.landing .overlap-group4-3 {
   height: 42px;
   position: relative;
   width: 268px;
 }
-.landing .overlap-group5-3 {
+.landing .overlap-group4-4 {
   align-items: center;
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/605eebdf2aa427aaa8c9c275/releases/605f63f6661cdd20c8e72c38/img/path-2-1@1x.png);
+  background-image: url(./img/path-2-1@1x.png);
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
   margin-top: -6px;
   min-height: 413px;
-  padding: 27.5px 15px;
+  padding: 31px 15px;
   width: 333px;
 }
-.landing .overlap-group6 {
-  height: 287px;
+.landing .overlap-group5 {
+  height: 263px;
   position: relative;
   width: 1055px;
 }
-.landing .overlap-group6-1 {
+.landing .overlap-group5-1 {
   align-items: center;
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/605eebdf2aa427aaa8c9c275/releases/605f63f6661cdd20c8e72c38/img/path-2@1x.png);
+  background-image: url(./img/path-2@1x.png);
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
   left: -9px;
   min-height: 413px;
-  padding: 27.5px 35px;
+  padding: 31px 35px;
   position: relative;
   top: -6px;
   width: 333px;
 }
-.landing .overlap-group7 {
+.landing .overlap-group6 {
   height: 489px;
   position: relative;
 }
-.landing .overlap-group8 {
-  height: 287px;
+.landing .overlap-group7 {
+  height: 263px;
   position: relative;
   width: 1051px;
+}
+.landing .overlap-group9 {
+  height: 516px;
+  position: relative;
+  width: 687px;
 }
 .landing .paint {
   height: 100px;
@@ -1404,13 +1448,45 @@
   top: 0px;
   width: 100px;
 }
+.landing .path-4 {
+  height: 13px;
+  left: 54px;
+  position: absolute;
+  top: 10px;
+  width: 116px;
+}
+.landing .path-5 {
+  height: 11px;
+  width: 69px;
+}
+.landing .path-6 {
+  height: 50px;
+  left: 90px;
+  position: absolute;
+  top: 96px;
+  width: 565px;
+}
+.landing .path-7 {
+  height: 65px;
+  left: 87px;
+  position: absolute;
+  top: 74px;
+  width: 644px;
+}
+.landing .path-8 {
+  height: 50px;
+  left: 79px;
+  position: absolute;
+  top: 74px;
+  width: 584px;
+}
 .landing .place {
   letter-spacing: 0px;
   line-height: 16px;
   margin-left: 1008px;
-  margin-top: 9px;
-  min-height: 24px;
-  min-width: 49px;
+  margin-top: 7px;
+  min-height: 18px;
+  min-width: 46px;
   pointer-events: auto;
   transition: all 0.2s ease;
   white-space: nowrap;
@@ -1420,18 +1496,18 @@
   box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
   color: black;
 }
-.landing .portfolio {
+.landing .partners {
   letter-spacing: 0px;
   line-height: 16px;
-  margin-left: 38px;
-  margin-top: 9px;
-  min-height: 24px;
-  min-width: 72px;
+  margin-left: 41px;
+  margin-top: 7px;
+  min-height: 18px;
+  min-width: 68px;
   pointer-events: auto;
   transition: all 0.2s ease;
   white-space: nowrap;
 }
-.landing .portfolio:hover {
+.landing .partners:hover {
   transform: translate(0, -5px);
   box-shadow: 0px 12px 5px -8px rgba(0, 0, 0, 0.2);
   color: black;
@@ -1576,10 +1652,10 @@
 .landing .software-solutions {
   letter-spacing: 0px;
   line-height: 16px;
-  margin-left: 38px;
-  margin-top: 9px;
-  min-height: 24px;
-  min-width: 152px;
+  margin-left: 42px;
+  margin-top: 7px;
+  min-height: 18px;
+  min-width: 147px;
   pointer-events: auto;
   transition: all 0.2s ease;
   white-space: nowrap;
@@ -1598,12 +1674,10 @@
 .landing .span-1 {
   color: rgba(0, 0, 0, 1);
   font-family: "Helvetica-Oblique", Helvetica;
-  font-size: 15px;
 }
 .landing .span-2 {
   color: rgba(0, 0, 0, 1);
   font-family: "Helvetica-Light", Helvetica;
-  font-size: 15px;
   font-weight: 300;
 }
 .landing .span0-1 {
@@ -1619,8 +1693,6 @@
   font-weight: 300;
 }
 .landing .standard-packages {
-  font-family: "Bungee", Helvetica;
-  font-size: 50px;
   left: 0px;
   letter-spacing: 0px;
   line-height: 50px;
@@ -1652,37 +1724,26 @@
   width: 65px;
 }
 .landing .text- {
-  color: white;
-  font-family: "Bungee", Helvetica;
-  font-size: 75px;
   letter-spacing: 0px;
-  line-height: 75px;
-  min-height: 77px;
-  min-width: 52px;
+  line-height: 15px;
+  margin-right: 7px;
+  margin-top: 20px;
+  min-height: 35px;
+  min-width: 208px;
   text-align: center;
   white-space: nowrap;
 }
 .landing .text--1 {
-  left: 79px;
   letter-spacing: 0px;
-  line-height: 10px;
-  position: absolute;
+  line-height: 15px;
+  margin-right: 7px;
+  margin-top: 15px;
+  min-height: 35px;
+  min-width: 212px;
   text-align: center;
-  top: 257px;
-  white-space: nowrap;
-}
-.landing .text--2 {
-  left: 79px;
-  letter-spacing: 0px;
-  line-height: 10px;
-  position: absolute;
-  text-align: center;
-  top: 255px;
   white-space: nowrap;
 }
 .landing .text-1 {
-  font-family: "Bungee", Helvetica;
-  font-size: 50px;
   left: 0px;
   letter-spacing: 0px;
   line-height: 50px;
@@ -1691,63 +1752,80 @@
   top: 0px;
   white-space: nowrap;
 }
-.landing .text-11 {
-  letter-spacing: 0px;
-  line-height: 10px;
-  margin-left: 2px;
-  margin-top: 57px;
-  min-height: 106px;
-  min-width: 124px;
-  text-align: center;
-  white-space: nowrap;
-}
-.landing .text-12 {
-  letter-spacing: 0px;
-  line-height: 10px;
-  margin-top: 29px;
-  min-height: 106px;
-  min-width: 144px;
-  text-align: center;
-  white-space: nowrap;
-}
-.landing .text-13 {
-  font-family: "Helvetica-Light", Helvetica;
-  font-size: 18px;
-  font-weight: 300;
-  letter-spacing: 0px;
-  line-height: 18px;
-  margin-left: 2px;
-  margin-top: 17px;
-  min-height: 20px;
-  min-width: 184px;
-  text-align: center;
-  white-space: nowrap;
-}
-.landing .text-15 {
-  left: 74px;
-  letter-spacing: 0px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 84px;
-  white-space: nowrap;
-}
-.landing .text-16 {
-  left: 46px;
-  letter-spacing: 0px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 234px;
-  white-space: nowrap;
-}
-.landing .text-18 {
+.landing .text-10 {
+  font-family: "Helvetica", Helvetica;
+  font-size: 15px;
   left: 169px;
   letter-spacing: 0px;
   line-height: 15px;
   position: absolute;
   text-align: center;
   top: 84px;
+  white-space: nowrap;
+}
+.landing .text-11 {
+  left: 30px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 98px;
+  white-space: nowrap;
+}
+.landing .text-12 {
+  left: 50px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 154px;
+  white-space: nowrap;
+}
+.landing .text-13 {
+  left: 73px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 232px;
+  white-space: nowrap;
+}
+.landing .text-14 {
+  left: 48px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 272px;
+  white-space: nowrap;
+}
+.landing .text-15 {
+  letter-spacing: 0px;
+  line-height: 25px;
+  min-height: 27px;
+  min-width: 320px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text-16 {
+  align-self: flex-start;
+  letter-spacing: 0px;
+  line-height: 15px;
+  margin-left: 1px;
+  margin-top: 32px;
+  min-height: 53px;
+  min-width: 254px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text-18 {
+  align-self: flex-end;
+  letter-spacing: 0px;
+  line-height: 15px;
+  margin-top: 12px;
+  min-height: 17px;
+  min-width: 260px;
+  text-align: center;
   white-space: nowrap;
 }
 .landing .text-2 {
@@ -1763,138 +1841,28 @@
   text-align: center;
   white-space: nowrap;
 }
+.landing .text-2-1 {
+  color: white;
+  font-family: "Bungee", Helvetica;
+  font-size: 75px;
+  letter-spacing: 0px;
+  line-height: 75px;
+  min-height: 77px;
+  min-width: 52px;
+  text-align: center;
+  white-space: nowrap;
+}
 .landing .text-20 {
-  left: 88px;
-  letter-spacing: 0px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 98px;
-  white-space: nowrap;
-}
-.landing .text-22 {
-  left: 86px;
-  letter-spacing: 0px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 78px;
-  white-space: nowrap;
-}
-.landing .text-24 {
-  left: 79px;
-  letter-spacing: 0px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 76px;
-  white-space: nowrap;
-}
-.landing .text-25 {
-  left: 30px;
-  letter-spacing: 0px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 76px;
-  white-space: nowrap;
-}
-.landing .text-26 {
-  left: 50px;
-  letter-spacing: 0px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 132px;
-  white-space: nowrap;
-}
-.landing .text-27 {
-  left: 73px;
-  letter-spacing: 0px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 210px;
-  white-space: nowrap;
-}
-.landing .text-28 {
-  left: 48px;
-  letter-spacing: 0px;
-  line-height: 15px;
-  position: absolute;
-  text-align: center;
-  top: 250px;
-  white-space: nowrap;
-}
-.landing .text-29 {
-  letter-spacing: 0px;
-  line-height: 25px;
-  min-height: 27px;
-  min-width: 320px;
-  text-align: center;
-  white-space: nowrap;
-}
-.landing .text-3 {
-  left: 10px;
-  letter-spacing: 0px;
-  line-height: 10px;
-  position: absolute;
-  text-align: center;
-  top: 124px;
-  white-space: nowrap;
-}
-.landing .text-3-1 {
-  letter-spacing: 0px;
-  line-height: 15px;
-  margin-right: 7px;
-  margin-top: 20px;
-  min-height: 35px;
-  min-width: 208px;
-  text-align: center;
-  white-space: nowrap;
-}
-.landing .text-3-2 {
-  letter-spacing: 0px;
-  line-height: 15px;
-  margin-right: 7px;
-  margin-top: 15px;
-  min-height: 35px;
-  min-width: 212px;
-  text-align: center;
-  white-space: nowrap;
-}
-.landing .text-30 {
-  align-self: flex-start;
-  letter-spacing: 0px;
-  line-height: 15px;
-  margin-left: 1px;
-  margin-top: 2px;
-  min-height: 53px;
-  min-width: 254px;
-  text-align: center;
-  white-space: nowrap;
-}
-.landing .text-32 {
   align-self: flex-end;
   letter-spacing: 0px;
   line-height: 15px;
-  margin-top: 12px;
-  min-height: 17px;
-  min-width: 260px;
-  text-align: center;
-  white-space: nowrap;
-}
-.landing .text-34 {
-  align-self: flex-end;
-  letter-spacing: 0px;
-  line-height: 15px;
-  margin-top: 2px;
+  margin-top: 22px;
   min-height: 53px;
   min-width: 300px;
   text-align: center;
   white-space: nowrap;
 }
-.landing .text-36 {
+.landing .text-22 {
   letter-spacing: 0px;
   line-height: 15px;
   margin-left: 3px;
@@ -1904,7 +1872,7 @@
   text-align: center;
   white-space: nowrap;
 }
-.landing .text-38 {
+.landing .text-24 {
   font-family: "HelveticaNeue-Light", Helvetica;
   font-size: 15px;
   font-weight: 300;
@@ -1915,7 +1883,7 @@
   min-height: 302px;
   width: 302px;
 }
-.landing .text-39 {
+.landing .text-25 {
   letter-spacing: 0px;
   line-height: 15px;
   margin-top: 94px;
@@ -1924,34 +1892,7 @@
   text-align: center;
   white-space: nowrap;
 }
-.landing .text-4 {
-  left: 17px;
-  letter-spacing: 0px;
-  line-height: 10px;
-  position: absolute;
-  text-align: center;
-  top: 124px;
-  white-space: nowrap;
-}
-.landing .text-5 {
-  left: 18px;
-  letter-spacing: 0px;
-  line-height: 10px;
-  position: absolute;
-  text-align: center;
-  top: 124px;
-  white-space: nowrap;
-}
-.landing .text-6 {
-  left: 0px;
-  letter-spacing: 0px;
-  line-height: 10px;
-  position: absolute;
-  text-align: center;
-  top: 119px;
-  white-space: nowrap;
-}
-.landing .text-7 {
+.landing .text-26 {
   left: 0px;
   letter-spacing: 0px;
   line-height: 35px;
@@ -1960,12 +1901,99 @@
   top: 0px;
   white-space: nowrap;
 }
-.landing .text-9 {
+.landing .text-28 {
   letter-spacing: 0px;
   line-height: 10px;
-  margin-top: 56px;
-  min-height: 94px;
+  margin-top: 59px;
+  min-height: 90px;
   min-width: 164px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text-3 {
+  left: 10px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: center;
+  top: 127px;
+  white-space: nowrap;
+}
+.landing .text-30 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-left: 2px;
+  margin-top: 60px;
+  min-height: 102px;
+  min-width: 124px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text-31 {
+  letter-spacing: 0px;
+  line-height: 10px;
+  margin-top: 33px;
+  min-height: 104px;
+  min-width: 144px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text-4 {
+  left: 19px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: center;
+  top: 127px;
+  white-space: nowrap;
+}
+.landing .text-5 {
+  left: 18px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: center;
+  top: 127px;
+  white-space: nowrap;
+}
+.landing .text-6 {
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: center;
+  top: 122px;
+  white-space: nowrap;
+}
+.landing .text-7 {
+  font-family: "Helvetica-Light", Helvetica;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  line-height: 18px;
+  margin-left: 2px;
+  margin-top: 17px;
+  min-height: 20px;
+  min-width: 184px;
+  text-align: center;
+  white-space: nowrap;
+}
+.landing .text-8 {
+  font-family: "Helvetica", Helvetica;
+  font-size: 15px;
+  left: 74px;
+  letter-spacing: 0px;
+  line-height: 15px;
+  position: absolute;
+  text-align: center;
+  top: 84px;
+  white-space: nowrap;
+}
+.landing .text-9 {
+  letter-spacing: 0px;
+  line-height: 15px;
+  min-height: 17px;
+  min-width: 158px;
   text-align: center;
   white-space: nowrap;
 }
@@ -1987,7 +2015,7 @@
   top: 0px;
   white-space: nowrap;
 }
-.landing .untitled- {
+.landing .untitled-1 {
   height: 253px;
   left: 0px;
   position: absolute;
@@ -2000,22 +2028,6 @@
   position: absolute;
   top: 0px;
   width: 100px;
-}
-.landing .visit-portfolio {
-  font-family: "Open Sans", Helvetica;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 0px;
-  line-height: 18px;
-  min-height: 26px;
-  min-width: 124px;
-  pointer-events: auto;
-  text-align: center;
-  transition: all 0.2s ease;
-  white-space: nowrap;
-}
-.landing .visit-portfolio:hover {
-  text-decoration: underline;
 }
 .landing .x016-megaphone {
   height: 100px;
@@ -2082,7 +2094,7 @@
 }
 .landing .xmlid834 {
   align-self: flex-end;
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/605eebdf2aa427aaa8c9c275/releases/605f69e4ad09ea041add5e87/img/xmlid-835-@1x.png);
+  background-image: url(./img/xmlid-835-@1x.png);
   background-size: 100% 100%;
   height: 30px;
   margin-bottom: -0px;
@@ -2094,7 +2106,7 @@
   line-height: 15px;
   position: absolute;
   text-align: center;
-  top: 236px;
+  top: 237px;
   white-space: nowrap;
 }
 .opensans-bold-black-15px {
@@ -2122,8 +2134,8 @@
   --golden-fizz: rgba(245, 238, 49, 1);
   --maroon-flush: rgba(199, 28, 74, 1);
   --midnight-pearl: rgba(97, 32, 99, 1);
-  --quick-silver: rgba(165, 165, 165, 1);
-  --quick-silver-2: rgba(166, 166, 166, 1);
+  --quick-silver: rgba(166, 166, 166, 1);
+  --quick-silver-2: rgba(165, 165, 165, 1);
   --quill-gray: rgba(214, 213, 213, 1);
 }
 .align-self-flex-end {
