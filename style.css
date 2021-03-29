@@ -106,7 +106,7 @@
   background-color: white;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: auto;
   overflow: hidden;
   padding: 19px 0;
   width: 100%;
@@ -691,7 +691,7 @@
 }
 .landing .group-31 {
   align-items: flex-end;
-  background-image: url(https://blogtests3.s3-eu-west-1.amazonaws.com/img/path-3@1x.png);
+  background-image: url(https://blogtests3.s3-eu-west-1.amazonaws.com/img/path-3%401x.png);
   background-size: 100% 100%;
   display: flex;
   height: 29px;
@@ -1218,7 +1218,7 @@
 }
 .landing .overlap-group-1 {
   align-items: flex-start;
-  background-image: url(https://blogtests3.s3-eu-west-1.amazonaws.com/img/path-1-1@1x.png);
+  background-image: url(https://blogtests3.s3-eu-west-1.amazonaws.com/img/path-1-1%401x.png);
   background-size: 100% 100%;
   display: flex;
   height: 88px;
@@ -1242,7 +1242,7 @@
 }
 .landing .overlap-group2 {
   align-items: flex-start;
-  background-image: url(https://blogtests3.s3-eu-west-1.amazonaws.com/img/path-1-3@1x.png);
+  background-image: url(https://blogtests3.s3-eu-west-1.amazonaws.com/img/path-1-3%401x.png);
   background-size: 100% 100%;
   display: flex;
   height: 68px;
@@ -1304,7 +1304,7 @@
 }
 .landing .overlap-group2-6 {
   align-items: flex-end;
-  background-image: url(https://blogtests3.s3-eu-west-1.amazonaws.com/img/untitled-2@1x.png);
+  background-image: url(https://blogtests3.s3-eu-west-1.amazonaws.com/img/untitled-2%401x.png);
   background-size: 100% 100%;
   display: flex;
   height: 253px;
@@ -1327,7 +1327,7 @@
 }
 .landing .overlap-group2-9 {
   align-items: flex-end;
-  background-image: url(https://blogtests3.s3-eu-west-1.amazonaws.com/img/untitled-2-1@1x.png);
+  background-image: url(https://blogtests3.s3-eu-west-1.amazonaws.com/img/untitled-2-1%401x.png);
   background-size: 100% 100%;
   display: flex;
   height: 253px;
@@ -1408,7 +1408,7 @@
 }
 .landing .overlap-group4-4 {
   align-items: center;
-  background-image: url(https://blogtests3.s3-eu-west-1.amazonaws.com/img/path-2-1@1x.png);
+  background-image: url(https://blogtests3.s3-eu-west-1.amazonaws.com/img/path-2-1%401x.png);
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
@@ -1424,7 +1424,7 @@
 }
 .landing .overlap-group5-1 {
   align-items: center;
-  background-image: url(https://blogtests3.s3-eu-west-1.amazonaws.com/img/path-2@1x.png);
+  background-image: url(https://blogtests3.s3-eu-west-1.amazonaws.com/img/path-2%401x.png);
   background-size: 100% 100%;
   display: flex;
   flex-direction: column;
@@ -2102,7 +2102,7 @@
 }
 .landing .xmlid834 {
   align-self: flex-end;
-  background-image: url(https://blogtests3.s3-eu-west-1.amazonaws.com/img/xmlid-835-@1x.png);
+  background-image: url(https://blogtests3.s3-eu-west-1.amazonaws.com/img/xmlid-835-%401x.png);
   background-size: 100% 100%;
   height: 30px;
   margin-bottom: -0px;
